@@ -178,6 +178,7 @@ header {
 @media (max-width: 900px) {
   header {
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
@@ -192,6 +193,7 @@ header nav {
 @media (max-width: 900px) {
   header nav {
     width: 100%;
+    margin-top: 20px;
   }
 }
 
@@ -212,7 +214,7 @@ header .logo {
 /* tablet */
 @media (max-width: 900px) {
   header .logo {
-    margin: 30px auto 0;
+    margin: 30px auto;
   }
 }
 
@@ -224,14 +226,6 @@ header .logo {
   justify-content: flex-end;
 }
 
-/* tablet */
-@media (max-width: 900px) {
-  .cta .cta-text {
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 .cta .cta-text {
   font-size: 72px;
   text-align: center;
@@ -241,6 +235,13 @@ header .logo {
   flex-flow: column;
   align-items: center;
   margin: 0 82px 0 0;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  .cta .cta-text {
+    margin: 0 auto;
+  }
 }
 
 .cta .cta-text button {
