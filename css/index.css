@@ -259,6 +259,13 @@ header .logo {
   justify-content: flex-end;
 }
 
+/* mobile */
+@media (max-width: 500px) {
+  .cta {
+    margin-top: 45px;
+  }
+}
+
 .cta .cta-text {
   font-size: 72px;
   text-align: center;
