@@ -156,6 +156,17 @@ h5 {
   margin: auto;
 }
 
+/* tablet */
+@media (max-width: 900px) {
+  .container {
+    width: 93%;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+}
+
 /* Header Styles */
 
 header {
@@ -163,11 +174,25 @@ header {
   display: flex;
 }
 
+/* tablet */
+@media (max-width: 900px) {
+  header {
+    flex-direction: column-reverse;
+  }
+}
+
 header nav {
   margin-top: 40px;
   width: 610px;
   justify-content: space-between;
   display: flex;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  header nav {
+    width: 100%;
+  }
 }
 
 header nav a {
@@ -184,12 +209,27 @@ header .logo {
   margin: 28px 0 0 91px;
 }
 
+/* tablet */
+@media (max-width: 900px) {
+  header .logo {
+    margin: 30px auto 0;
+  }
+}
+
 /* Call To Action (CTA) Styles */
 
 .cta {
   display: flex;
   margin-top: 72px;
   justify-content: flex-end;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  .cta .cta-text {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .cta .cta-text {
@@ -218,6 +258,13 @@ header .logo {
   color: white;
 }
 
+/* tablet */
+@media (max-width: 900px) {
+  .cta img {
+    display: none;
+  }
+}
+
 /* Main Content Styles */
 
 .main-content {
@@ -236,6 +283,13 @@ header .logo {
 .main-content .middle-img {
   display: block;
   margin: 30px auto;
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  .main-content .middle-img {
+    width: 100%;
+  }
 }
 
 .main-content .bottom-content {
